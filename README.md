@@ -30,13 +30,6 @@ Open to remote full-stack and product engineering roles.
   <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,nodejs,postgres,tailwind,redux,jest,aws,nginx,linux,docker,figma,swift&perline=15" alt="React, Next.js, TypeScript, JavaScript, Node.js, PostgreSQL, Tailwind CSS, Redux, Jest, AWS, Nginx, Linux, Docker, Figma, Swift" />
 </p>
 
-### Selected work
-
-- **[vorssaint-utils](https://github.com/An11y/vorssaint-utils)** · Swift. Free, open-source macOS menu bar toolkit ([vorssaint.com](https://vorssaint.com))
-- **[SystemDataCleaner](https://github.com/An11y/SystemDataCleaner)** · Swift. Frees up macOS System Data: caches, Xcode and hidden junk; deletes only what you pick
-- **[ClipOverlay](https://github.com/An11y/ClipOverlay)** · Swift. macOS clipboard overlay with history, favorites, rich paste and hotkeys
-- **[DevSecOps-Intro](https://github.com/An11y/DevSecOps-Intro)** · Shell. 10 hands-on labs: threat modeling, SBOM, SAST/DAST, IaC and container security
-
 ### Activity
 
 <p align="center">
