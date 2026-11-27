@@ -48,7 +48,7 @@
     <text x="64" y="84" class="mono tag">// full-stack engineer</text>
     <text x="58" y="196" class="mono h" fill="#0b0f17">An11y</text>
     <rect class="bar" x="64" y="218" width="200" height="6" rx="3" fill="url(#acc)"/>
-    <text x="64" y="268" class="mono sub">5+ years · web · backend · native macOS</text>
+    <text x="64" y="268" class="mono sub">3+ years · web · backend · native macOS</text>
     <text x="64" y="300" class="mono sub2">From the first commit to production.</text>
 
     <g transform="translate(700 48)">

@@ -16,7 +16,7 @@
 
 ### About
 
-I've been shipping production software for 5+ years. One project can take me from database schema through API and web frontend to deploy and monitoring. On the side I make small native macOS utilities and open-source most of them.
+I've been shipping production software for 3+ years. One project can take me from database schema through API and web frontend to deploy and monitoring. On the side I make small native macOS utilities and open-source most of them.
 
 <p>
   <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,astro,tailwind,nodejs,php,laravel,python,swift,postgres,docker,cloudflare,linux&perline=16" alt="TypeScript, JavaScript, React, Next.js, Vue, Astro, Tailwind, Node.js, PHP, Laravel, Python, Swift, PostgreSQL, Docker, Cloudflare, Linux" />
@@ -24,15 +24,10 @@ I've been shipping production software for 5+ years. One project can take me fro
 
 ### Selected work
 
-<p align="center">
-  <a href="https://github.com/An11y/vorssaint-utils"><img src="https://github-readme-stats.vercel.app/api/pin/?username=An11y&repo=vorssaint-utils&hide_border=true&bg_color=00000000&title_color=7c5cff&icon_color=22d3eedescription_lines_count=3&hide_border=true&bg_color=00000000&title_color=7c5cff&icon_color=22d3eehide_border=true&bg_color=00000000&title_color=7c5cff&icon_color=22d3ee&text_color=8b949e" width="49%" alt="vorssaint-utils" /></a>
-  <a href="https://github.com/An11y/SystemDataCleaner"><img src="https://github-readme-stats.vercel.app/api/pin/?username=An11y&repo=SystemDataCleaner&hide_border=true&bg_color=00000000&title_color=7c5cff&icon_color=22d3eedescription_lines_count=3&hide_border=true&bg_color=00000000&title_color=7c5cff&icon_color=22d3eehide_border=true&bg_color=00000000&title_color=7c5cff&icon_color=22d3ee&text_color=8b949e" width="49%" alt="SystemDataCleaner" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/An11y/ClipOverlay"><img src="https://github-readme-stats.vercel.app/api/pin/?username=An11y&repo=ClipOverlay&hide_border=true&bg_color=00000000&title_color=7c5cff&icon_color=22d3eedescription_lines_count=3&hide_border=true&bg_color=00000000&title_color=7c5cff&icon_color=22d3eehide_border=true&bg_color=00000000&title_color=7c5cff&icon_color=22d3ee&text_color=8b949e" width="49%" alt="ClipOverlay" /></a>
-  <a href="https://github.com/An11y/DevSecOps-Intro"><img src="https://github-readme-stats.vercel.app/api/pin/?username=An11y&repo=DevSecOps-Intro&hide_border=true&bg_color=00000000&title_color=7c5cff&icon_color=22d3eedescription_lines_count=3&hide_border=true&bg_color=00000000&title_color=7c5cff&icon_color=22d3eehide_border=true&bg_color=00000000&title_color=7c5cff&icon_color=22d3ee&text_color=8b949e" width="49%" alt="DevSecOps-Intro" /></a>
-</p>
+- **[vorssaint-utils](https://github.com/An11y/vorssaint-utils)** · Swift. Free, open-source macOS menu bar toolkit ([vorssaint.com](https://vorssaint.com))
+- **[SystemDataCleaner](https://github.com/An11y/SystemDataCleaner)** · Swift. Frees up macOS System Data: caches, Xcode and hidden junk; deletes only what you pick
+- **[ClipOverlay](https://github.com/An11y/ClipOverlay)** · Swift. macOS clipboard overlay with history, favorites, rich paste and hotkeys
+- **[DevSecOps-Intro](https://github.com/An11y/DevSecOps-Intro)** · Shell. 10 hands-on labs: threat modeling, SBOM, SAST/DAST, IaC and container security
 
 ### Activity
 
