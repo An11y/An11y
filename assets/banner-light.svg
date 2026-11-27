@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#d8dee4"/>
+    </pattern>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="1200" height="340" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .mono{font-family:'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,monospace}
+    .h{font-weight:800;font-size:112px;letter-spacing:-4px}
+    .tag{font-size:17px;fill:#6e7781}
+    .sub{font-size:21px;fill:#24292f}
+    .sub2{font-size:17px;fill:#57606a}
+    .t{font-size:15.5px;fill:#24292f}
+    .p{fill:#0891b2}
+    .k{fill:#57606a}
+    .ln{opacity:0;animation:in .35s ease-out forwards}
+    .d1{animation-delay:.5s}.d2{animation-delay:1.1s}.d3{animation-delay:1.8s}.d4{animation-delay:2.2s}
+    .d5{animation-delay:2.5s}.d6{animation-delay:2.8s}.d7{animation-delay:3.1s}.d8{animation-delay:3.7s}
+    @keyframes in{from{opacity:0}to{opacity:1}}
+    .cur{animation:blink 1.1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .bar{transform-origin:64px 0;transform:scaleX(0);animation:grow .9s cubic-bezier(.2,.8,.2,1) .2s forwards}
+    @keyframes grow{to{transform:scaleX(1)}}
+    .orb{animation:drift 14s ease-in-out infinite alternate}
+    .orb2{animation:drift2 18s ease-in-out infinite alternate}
+    @keyframes drift{to{transform:translate(-160px,60px)}}
+    @keyframes drift2{to{transform:translate(140px,-40px)}}
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="#f6f8fa"/>
+    <rect width="1200" height="340" fill="url(#dots)"/>
+    <circle class="orb" cx="1000" cy="40" r="280" fill="url(#glow)"/>
+    <circle class="orb2" cx="160" cy="360" r="240" fill="url(#glow2)"/>
+
+    <text x="64" y="84" class="mono tag">// full-stack engineer</text>
+    <text x="58" y="196" class="mono h" fill="#0b0f17">An11y</text>
+    <rect class="bar" x="64" y="218" width="200" height="6" rx="3" fill="url(#acc)"/>
+    <text x="64" y="268" class="mono sub">5+ years · web · backend · native macOS</text>
+    <text x="64" y="300" class="mono sub2">From the first commit to production.</text>
+
+    <g transform="translate(700 48)">
+      <rect width="440" height="244" rx="12" fill="#ffffff" fill-opacity=".85" stroke="#d0d7de"/>
+      <circle cx="22" cy="20" r="5.5" fill="#ff5f57"/>
+      <circle cx="40" cy="20" r="5.5" fill="#febc2e"/>
+      <circle cx="58" cy="20" r="5.5" fill="#28c840"/>
+      <text x="220" y="25" text-anchor="middle" class="mono" font-size="13" fill="#5b6577">~/an11y — zsh</text>
+      <line x1="0" y1="40" x2="440" y2="40" stroke="#d8dee4"/>
+      <g class="mono t">
+        <text x="22" y="72" class="ln d1"><tspan class="p">$</tspan> whoami</text>
+        <text x="22" y="96" class="ln d2">an11y · builds the whole product</text>
+        <text x="22" y="128" class="ln d3"><tspan class="p">$</tspan> cat stack.txt</text>
+        <text x="22" y="152" class="ln d4"><tspan class="k">front</tspan><tspan x="102">Next.js · React · Vue · Astro</tspan></text>
+        <text x="22" y="174" class="ln d5"><tspan class="k">back</tspan><tspan x="102">Node · PHP/Laravel · Python</tspan></text>
+        <text x="22" y="196" class="ln d6"><tspan class="k">native</tspan><tspan x="102">Swift · SwiftUI · AppKit</tspan></text>
+        <text x="22" y="218" class="ln d7"><tspan class="k">ops</tspan><tspan x="102">Docker · CI/CD · Cloudflare</tspan></text>
+      </g>
+      <g class="ln d8"><rect class="cur" x="22" y="228" width="9" height="3" fill="#0891b2"/></g>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="339" rx="19.5" stroke="#d8dee4"/>
+</svg>
