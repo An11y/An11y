@@ -45,11 +45,11 @@
     <circle class="orb" cx="1000" cy="40" r="280" fill="url(#glow)"/>
     <circle class="orb2" cx="160" cy="360" r="240" fill="url(#glow2)"/>
 
-    <text x="64" y="84" class="mono tag">// full-stack engineer</text>
+    <text x="64" y="84" class="mono tag">// product-minded full-stack engineer</text>
     <text x="58" y="196" class="mono h" fill="#0b0f17">An11y</text>
     <rect class="bar" x="64" y="218" width="200" height="6" rx="3" fill="url(#acc)"/>
-    <text x="64" y="268" class="mono sub">3+ years · web · backend · native macOS</text>
-    <text x="64" y="300" class="mono sub2">From the first commit to production.</text>
+    <text x="64" y="268" class="mono sub">3+ years · React · Next.js · Node.js</text>
+    <text x="64" y="300" class="mono sub2">Product, frontend, backend, deploy. All of it.</text>
 
     <g transform="translate(700 48)">
       <rect width="440" height="244" rx="12" fill="#ffffff" fill-opacity=".85" stroke="#d0d7de"/>
@@ -60,12 +60,12 @@
       <line x1="0" y1="40" x2="440" y2="40" stroke="#d8dee4"/>
       <g class="mono t">
         <text x="22" y="72" class="ln d1"><tspan class="p">$</tspan> whoami</text>
-        <text x="22" y="96" class="ln d2">an11y · builds the whole product</text>
+        <text x="22" y="96" class="ln d2">an11y · figma → code → api → prod</text>
         <text x="22" y="128" class="ln d3"><tspan class="p">$</tspan> cat stack.txt</text>
-        <text x="22" y="152" class="ln d4"><tspan class="k">front</tspan><tspan x="102">Next.js · React · Vue · Astro</tspan></text>
-        <text x="22" y="174" class="ln d5"><tspan class="k">back</tspan><tspan x="102">Node · PHP/Laravel · Python</tspan></text>
-        <text x="22" y="196" class="ln d6"><tspan class="k">native</tspan><tspan x="102">Swift · SwiftUI · AppKit</tspan></text>
-        <text x="22" y="218" class="ln d7"><tspan class="k">ops</tspan><tspan x="102">Docker · CI/CD · Cloudflare</tspan></text>
+        <text x="22" y="152" class="ln d4"><tspan class="k">front</tspan><tspan x="102">Next.js · React · TypeScript</tspan></text>
+        <text x="22" y="174" class="ln d5"><tspan class="k">back</tspan><tspan x="102">Node.js · PostgreSQL · REST</tspan></text>
+        <text x="22" y="196" class="ln d6"><tspan class="k">infra</tspan><tspan x="102">AWS · Linux · Nginx · Docker</tspan></text>
+        <text x="22" y="218" class="ln d7"><tspan class="k">data</tspan><tspan x="102">GA4 · GTM · Core Web Vitals</tspan></text>
       </g>
       <g class="ln d8"><rect class="cur" x="22" y="228" width="9" height="3" fill="#0891b2"/></g>
     </g>
